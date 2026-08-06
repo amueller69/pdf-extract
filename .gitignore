@@ -1,0 +1,27 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Packaging and build output
+*.egg-info/
+build/
+dist/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+.env
+
+# Generated pdf-extract output
+*_extracted.md
+*_extracted.json
+*_ocr.pdf
+*_crops/
+
+# Editor and operating-system files
+.DS_Store
+.idea/
+.vscode/
